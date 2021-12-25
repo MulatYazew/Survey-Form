@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cars and Travel Survey Form in Addis Ababa</title>
+        <link rel="stylesheet" type="text/css" href="css\survey-form.css">
+
+    </head>
+
+    <body>
+        <header class="header">
+            <h1 id="title">Cars and Travel Survey Form in Addis Ababa</h1>
+            <p id="description">This is a survey form for cars and travel in Addis Ababa</p>
+        </header>
+
+       <div class="form-data">
+        <form action="" id="survey-form">
+            <div class="div form-group">
+                <label for="name" class="form-prompt">Name</label>
+                <input type="text" id="name" required placeholder="Enter your name">
+            </div>
+
+            <div class="div form-group">
+                <label for="email" class="form-prompt">Email</label>
+                <input type="email" id="email" required placeholder="Enter your email">
+            </div>
+
+            <div class="div form-group">
+                <label for="age" class="form-prompt">Age(Optional)</label>
+                <input type="number" 
+                min="10"
+                max="100"
+                id="age" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <label for="" class="form-prompt">
+                    Choose your favorite car
+                </label>
+                <select name="favorite" id="favorite-car">
+                    <option value="Camry" class="option">Toyota Camry</option>
+                    <option value="Civic" class="option">Honda Civic</option>
+                    <option value="Taurus" class="option">Ford Taurus</option>
+                    <option value="Cruze" class="option">Chevy Cruze</option>
+                    <option value="Sonata" class="option">Hyundia Sonata</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="" class="form-prompt">Would you recommend the car you choose?</label>
+                <label>
+                    <input type="radio" 
+                    value="definitely" 
+                    name="car-recommend" 
+                    class="radio-car-recommend"
+                    checked
+                    >Definitely
+                </label>
+                <label>
+                    <input type="radio" 
+                    value="Maybe" 
+                    name="car-recommend" 
+                    class="radio-car-recommend"
+                    checked
+                    >Maybe
+                </label>
+                <label>
+                    <input type="radio" 
+                    value="Not Sure" 
+                    name="car-recommend" 
+                    class="radio-car-recommend"
+                    checked
+                    >Not Sure
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="places" class="form-prompt">Places where you want to go</label>
+                <label>
+                    <input type="checkbox" 
+                    value="Bole" 
+                    name="places" 
+                    class="places"
+                    >Bole, Addis Ababa
+                </label>
+                <label>
+                    <input type="checkbox" 
+                    value="Megenagna" 
+                    name="places" 
+                    class="places"
+                    >Megenagna, Addis Ababa
+                </label>
+                <label>
+                    <input type="checkbox" 
+                    value="Mexico" 
+                    name="places" 
+                    class="places"
+                    >Mexico, Addis Ababa
+                </label>
+                <label>
+                    <input type="checkbox" 
+                    value="Shiromeda" 
+                    name="places" 
+                    class="places"
+                    >Shiromeda, Addis Ababa
+                </label>
+                <label>
+                    <input type="checkbox" 
+                    value="Bus Station" 
+                    name="places" 
+                    class="places"
+                    >Bus Station, Addis Ababa
+                </label>
+                <label>
+                    <input type="checkbox" 
+                    value="Kotebe" 
+                    name="places" 
+                    class="places"
+                    >Kotebe, Addis Ababa
+                </label>
+                <label>
+                    <input type="checkbox" 
+                    value="Kaliti" 
+                    name="places" 
+                    class="places"
+                    >Kaliti, Addis Ababa
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="Comments" class="form-prompt"
+                >Any Additional Comments?</label>
+                <textarea name="comments" 
+                id="comments" 
+                cols="100" 
+                rows="10" 
+                placeholder="You Can Comment Here"
+                ></textarea>
+                
+            </div>
+            <button class="submit-button" type="submit">Submit</button>
+        </form>
+
+       </div>
+
+    </body>
+
+
+
+
+
+
+</html>
